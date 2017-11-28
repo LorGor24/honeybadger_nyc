@@ -1,0 +1,20 @@
+console.log("hello");
+
+var statement = "Hello World";
+
+console.log(statement.toUpperCase());
+
+var ustatement = statement.toUpperCase();
+
+var lstatement = statement.toLowerCase();
+
+if (1>2){
+		console.log('YAYYY');
+
+}
+else if (true && false) {
+      console.log('PIZZAAA')
+}
+else {
+      console.log('tacooooosssss')
+}

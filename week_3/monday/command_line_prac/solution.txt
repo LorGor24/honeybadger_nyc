@@ -1,0 +1,14 @@
+Mkdir my-favorite-things
+
+Cd my-favorite-things
+
+Mkdir books
+
+
+Cd books
+
+Mkdir mark-twain
+
+Cd mark-twains
+
+Touch adventures-of-huckleberry-finn 
