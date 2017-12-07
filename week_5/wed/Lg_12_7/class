@@ -1,0 +1,11 @@
+const mustang = {
+	color: 'red',
+	class: 'muscle',
+	horsepower: 1000
+
+	paint: function (newcolor)
+},
+
+	increaseHorsepower: function():{
+			this.horsepower +=5;
+	}

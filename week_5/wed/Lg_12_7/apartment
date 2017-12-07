@@ -1,0 +1,107 @@
+// Building
+
+// // const apartment = {
+//   units: '60',
+//   name: 'Fortmine',
+//   averageRate: '3000',
+//   studios: '40',
+//   oneBedrooms:'20'
+//   tenants: '100'
+//
+//   opendoor: function() {
+//
+//   }
+// }
+
+
+//LAMP
+
+// const lamp = {
+//
+//     wattage: '300',
+//     on: false,
+//     turnOn: function () {
+//           this.on = true;
+//     },
+//     turnOff: function() {
+//         this.on = false;
+//       },
+//
+//       status: function () {
+//
+//         if (this.on){
+//           console.log('The light is on');
+//         }else {
+//           console.log('This light is off');
+//         }
+//       }
+// }
+
+
+
+
+// POKEMON
+
+const pokemon = {
+    num: '3',
+    name: 'Venus',
+    type: 'Grass',
+    moves: ['Giga Drain', 'Sludge Bomb', 'Synthesis', 'Earthquake'],
+    hp: '100',
+
+        takeDamage: function () {
+          this.hp -= 10;
+        },
+
+        visitPokemonCenter: function (){
+          this.hp +- 100;
+        },
+
+        status: function (){
+
+          if(this.hp == 0){
+            console.log('Your Pokemon has Fainted');
+          }else {
+            console.log(`${this.name} is alive, Hp is: ${this.hp}`);
+          }
+        }
+
+}
+
+function Pokemonm (num, name, type, moves, hp){
+
+  this.num= num;
+  this.name= name;
+  this.type= type;
+  this.moves= moves;
+  this.hp= hp;
+}
+
+const charizard = new Pokemonm('6','charizard','fire',['fire blast', 'flamethrower','smash','headbutt'], '100');
+
+
+//CONSTRUCTORS
+
+// function Car(color, make, model, horsepower){
+//
+//   this.color = color;
+//   this.make = make;
+//   this.model = model;
+//   this.horsepower = horsepower;
+//
+//
+//
+// }
+//
+//
+// const tesla = new Car('black', 'tesla', 'model x', 150);
+//
+//
+// Car.prototype.paint = function (newColor) {
+// 			this.color = newColor;
+// }
+//
+//
+// Car.prototype.increaseHorse = function () {
+// 		this.horsepower += 5;
+// }
